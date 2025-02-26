@@ -1,0 +1,16 @@
+ruff
+pre-commit
+pytorch_lightning
+torch
+wandb
+captum
+pandas
+numpy
+scikit-learn
+torchvision
+pillow
+scikit-image
+lime
+transformers
+evaluate
+datasets

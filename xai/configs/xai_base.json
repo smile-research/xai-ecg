@@ -1,0 +1,22 @@
+{
+    "data_module_config": {
+        "data_dir": "./data/generated_data/",
+        "batch_size": 16,
+        "num_workers": 16
+    },
+    "dataset": {
+        "df": "./xai_labels.csv",
+        "folds_pred": {
+            "test" : [
+                10
+            ]
+        }
+    },
+    "wandb_config": {
+        "entity": "wandb_entity",
+        "project": "wandb_project"
+    },
+    "model": "model_path"
+    
+    
+}
