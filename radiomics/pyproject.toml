@@ -1,0 +1,25 @@
+[project]
+name = "revision"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.4.2",
+    "pandas>=3.0.1",
+    "pyradiomics",
+    "simpleitk>=2.5.3",
+    "scikit-image>=0.25.2",
+    "six>=1.17.0",
+    "tqdm>=4.67.3",
+    "matplotlib>=3.10.8",
+    "seaborn>=0.13.2",
+    "scipy>=1.17.1",
+    "scikit-learn>=1.8.0",
+    "openpyxl>=3.1.5",
+    "playwright>=1.58.0",
+    "pymupdf>=1.27.2",
+]
+
+[tool.uv.sources]
+pyradiomics = { git = "https://github.com/AIM-Harvard/pyradiomics.git" }

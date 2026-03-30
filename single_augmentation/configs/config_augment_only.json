@@ -1,0 +1,9 @@
+[
+    {
+        "type": "augment",
+        "rotate": 15,
+        "noise": 80,
+        "crop": 0.05,
+        "temperature": 3000
+    }
+]

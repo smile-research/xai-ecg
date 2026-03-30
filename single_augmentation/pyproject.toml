@@ -1,0 +1,25 @@
+[project]
+name = "single-augmentation"
+version = "0.1.0"
+requires-python = "==3.10.*"
+dependencies = [
+    "pillow==10.3.0",
+    "imageio==2.27.0",
+    "imgaug==0.4.0",
+    "imutils==0.5.4",
+    "opencv-python==4.6.0.66",
+    "scikit-image==0.21.0",
+    "scipy>=1.10.0",
+    "matplotlib",
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "seaborn==0.12.2",
+    "tensorflow==2.14.0",
+    "keras==2.14.0",
+    "spacy==3.2.6",
+    "validators==0.18.2",
+    "beautifulsoup4==4.12.2",
+    "requests==2.21.0",
+    "html5lib==1.1",
+    "en-core-sci-sm @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.0/en_core_sci_sm-0.5.0.tar.gz",
+]

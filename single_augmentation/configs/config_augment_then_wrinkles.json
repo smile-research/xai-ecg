@@ -1,0 +1,17 @@
+[
+    {
+        "type": "augment",
+        "rotate": 5,
+        "noise": 30,
+        "crop": 0.0,
+        "temperature": 8000
+    },
+    {
+        "type": "wrinkles",
+        "ifWrinkles": true,
+        "ifCreases": true,
+        "crease_angle": 0,
+        "num_creases_vertically": 2,
+        "num_creases_horizontally": 1
+    }
+]

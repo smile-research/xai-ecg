@@ -1,0 +1,23 @@
+[project]
+name = "explanation-generation"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pytorch-lightning",
+    "torch",
+    "wandb",
+    "captum",
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "torchvision",
+    "pillow",
+    "scikit-image",
+    "lime",
+    "transformers",
+    "evaluate",
+    "datasets",
+    "matplotlib",
+    "tqdm",
+    "python-dotenv",
+]

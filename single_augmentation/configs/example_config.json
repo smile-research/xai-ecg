@@ -1,0 +1,24 @@
+[
+    {
+        "type": "wrinkles",
+        "ifWrinkles": true,
+        "ifCreases": true,
+        "crease_angle": 45,
+        "num_creases_vertically": 3,
+        "num_creases_horizontally": 2
+    },
+    {
+        "type": "augment",
+        "rotate": 7,
+        "noise": 50,
+        "crop": 0.01,
+        "temperature": 15000
+    },
+    {
+        "type": "handwritten_text",
+        "num_words": 3,
+        "handwriting_size_factor": 0.2,
+        "x_offset": 0,
+        "y_offset": 0
+    }
+]

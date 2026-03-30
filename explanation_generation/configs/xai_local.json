@@ -1,0 +1,20 @@
+{
+    "data_module_config": {
+        "data_dir": "./augmentation_generation/output/clear/",
+        "batch_size": 16,
+        "num_workers": 16
+    },
+    "dataset": {
+        "df": "./explanation_generation/configs/xai_labels.csv",
+        "folds_pred": {
+            "test" : [
+                10
+            ]
+        }
+    },
+    "wandb_config": {
+        "entity": "your-entity",
+        "project": "ecg-xai-inference"
+    },
+    "model": "your-entity/ecg-xai-models/model-AAAA:v0"
+}

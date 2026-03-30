@@ -1,0 +1,9 @@
+[
+    {
+        "type": "handwritten_text",
+        "num_words": 5,
+        "handwriting_size_factor": 0.3,
+        "x_offset": 50,
+        "y_offset": 100
+    }
+]
