@@ -1,4 +1,4 @@
-# Detecting Cardiovascular Diseases Using ECG Scans and~Explainable Artificial Intelligence: Code Repository
+# Detecting Cardiovascular Diseases Using ECG Scans and Explainable Artificial Intelligence: Code Repository
 
 This repository provides tools for ECG image generation, deep learning-based classification, and explanation robustness analysis. It covers the full workflow from rendering ECG waveforms to images, applying real-world distortions, generating XAI explanations, and measuring their stability.
 
